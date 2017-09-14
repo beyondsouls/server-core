@@ -18,9 +18,9 @@
         "classmap": [],
         "psr-0": {},
         "psr-4": {
-            "BeyondSouls\\Utility": "./Core/Utility/",
-            "BeyondSouls\\Connect": "./Core/Connect/",
-            "BeyondSouls\\HTTP": "./Core/HTTP/"
+            "BeyondSouls\\Utility\\": "./Core/Utility/",
+            "BeyondSouls\\Connect\\": "./Core/Connect/",
+            "BeyondSouls\\HTTP\\": "./Core/HTTP/"
         }
     }
 }
