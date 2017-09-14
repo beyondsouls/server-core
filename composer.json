@@ -1,0 +1,26 @@
+{
+    "name": "beyondsouls/server-core",
+    "description": "A short description of what your package does",
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Biasi",
+            "email": "jan@beyondsouls.com",
+            "homepage": "https://beyond-souls.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": ["./Core/functions.php"],
+        "classmap": [],
+        "psr-0": {},
+        "psr-4": {
+            "BeyondSouls\\Utility": "./Core/Utility/",
+            "BeyondSouls\\Connect": "./Core/Connect/",
+            "BeyondSouls\\HTTP": "./Core/HTTP/"
+        }
+    }
+}
